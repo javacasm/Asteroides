@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Asteroides</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Asteroides</string>
+    <string name="Titulo">ASTEROIDES</string>
+    <string name="jugar">Jugar</string>
+    <string name="configurar">Configurar</string>
+    <string name="acercade">Acerca de ...</string>
+    <string name="salir">Salir</string>
+    <string name="textoacercade">Este programa a sido desarrollado como ejemplo en el curso de Android....</string>
+    <string name="menu_configuracion">Configuración</string>
+    <string name="menu_acercade">Acerca de ...</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_puntuaciones">Puntuaciones</string>
+    <string name="puntuaciones">Puntuaciones</string>
+
+</resources>

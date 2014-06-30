@@ -1,0 +1,62 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    style="Theme.Black.NoTitleBar.Fullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asteroid2_504x241"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="@string/Titulo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+
+
+    <Button
+        android:id="@+id/buttonJugar"
+        style="@style/Boton"
+        android:onClick="jugar"
+        android:text="@string/jugar" />
+
+
+    <Button
+        android:id="@+id/buttonConfigurar"
+        style="@style/Boton"
+        android:onClick="verPreferencias"
+        android:text="@string/configurar" />
+
+    <Button
+        android:id="@+id/buttonPuntuaciones"
+        style="@style/Boton"
+        android:onClick="verPuntuaciones"
+        android:text="@string/puntuaciones" />
+
+    <Button
+        android:id="@+id/buttonAcercaDe"
+        style="@style/Boton"
+        android:onClick="lanzarAcercaDe"
+        android:text="@string/acercade" />
+
+    <Button
+        android:id="@+id/buttonSalir"
+        style="@style/Boton"
+        android:onClick="salirAplicacion"
+        android:text="@string/salir" />
+
+</LinearLayout>

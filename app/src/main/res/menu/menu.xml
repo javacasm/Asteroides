@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/acercade" android:title="@string/menu_acercade" android:icon="@android:drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/config" android:title="@string/menu_configuracion" android:icon="@android:drawable/ic_menu_info_details"></item>
+    
+
+</menu>
