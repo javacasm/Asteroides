@@ -224,7 +224,7 @@ public class MainActivity extends Activity {
     public void mostrarPreferencias()
     {
     	SharedPreferences pref=getSharedPreferences("org.example.asteroides_preferences", MODE_PRIVATE);
-    	String s="música: "+pref.getBoolean("musica", true)+" gráficos: "+pref.getString("graficos","?")+ 
+    	String s="mÃºsica: "+pref.getBoolean("musica", true)+" grÃ¡ficos: "+pref.getString("graficos","?")+
     			" fragmentos: "+pref.getString("fragmentos", "0");
     	String s2="usuario:"+pref.getString("usuario","login");
     	Toast.makeText(this, s, Toast.LENGTH_LONG).show();

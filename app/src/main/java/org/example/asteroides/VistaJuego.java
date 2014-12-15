@@ -43,7 +43,7 @@ public class VistaJuego extends View {
     private static final int PASO_GIRO_NAVE = 5;
     private static final float PASO_ACELERACION_NAVE=0.5f;
     
-    private int numAsteroides= 5; // Número inicial de asteroides
+    private int numAsteroides= 5; // NÃºmero inicial de asteroides
     private int numFragmentos= 3; // Fragmentos en que se divide
     private float mX=0, mY=0;
     private boolean disparo=false;
@@ -191,24 +191,24 @@ public class VistaJuego extends View {
 
         long ahora = System.currentTimeMillis();
 
-        // No hagas nada si el período de proceso no se ha cumplido.
+        // No hagas nada si el perÃ­odo de proceso no se ha cumplido.
         if(ultimoProceso + PERIODO_PROCESO > ahora) {
               return;
         }
 
-        // Para una ejecución en tiempo real calculamos retardo          
+        // Para una ejecuciÃ³n en tiempo real calculamos retardo
         double retardo = (ahora - ultimoProceso) / PERIODO_PROCESO;
-        ultimoProceso = ahora; // Para la próxima vez
+        ultimoProceso = ahora; // Para la prÃ³xima vez
 
-        // Actualizamos velocidad y dirección de la nave a partir de
-        // giroNave y aceleracionNave (según la entrada del jugador)
+        // Actualizamos velocidad y direcciÃ³n de la nave a partir de
+        // giroNave y aceleracionNave (segÃºn la entrada del jugador)
         nave.setAngulo((int) (nave.getAngulo() + giroNave * retardo));
         double nIncX = nave.getIncX() + aceleracionNave *
                              Math.cos(Math.toRadians(nave.getAngulo())) * retardo;
         double nIncY = nave.getIncY() + aceleracionNave *
                             Math.sin(Math.toRadians(nave.getAngulo())) * retardo;
 
-        // Actualizamos si el módulo de la velocidad no excede el máximo
+        // Actualizamos si el mÃ³dulo de la velocidad no excede el mÃ¡ximo
         if(Math.hypot(nIncX,nIncY) <= Grafico.getMaxVelocidad()){
               nave.setIncX(nIncX);
               nave.setIncY(nIncY);
@@ -392,7 +392,7 @@ public class VistaJuego extends View {
     @Override
     public boolean onKeyDown(int codigoTecla, KeyEvent evento) {
           super.onKeyDown(codigoTecla, evento);
-           // Suponemos que vamos a procesar la pulsación
+           // Suponemos que vamos a procesar la pulsaciÃ³n
           boolean procesada = true;
           switch (codigoTecla) {
           case KeyEvent.KEYCODE_Q:
@@ -421,7 +421,7 @@ public class VistaJuego extends View {
                  break;
 
           default:
-                 // Si estamos aquí, no hay pulsación que nos interese
+                 // Si estamos aquÃ­, no hay pulsaciÃ³n que nos interese
                  procesada = false;
                  break;
           }
@@ -432,7 +432,7 @@ public class VistaJuego extends View {
     @Override
     public boolean onKeyUp(int codigoTecla, KeyEvent evento) {
           super.onKeyUp(codigoTecla, evento);
-          // Suponemos que vamos a procesar la pulsación
+          // Suponemos que vamos a procesar la pulsaciÃ³n
           boolean procesada = true;
           switch (codigoTecla) {
           case KeyEvent.KEYCODE_DPAD_UP:
@@ -445,7 +445,7 @@ public class VistaJuego extends View {
                  break;
 
           default:
-                 // Si estamos aquí, no hay pulsación que nos interese
+                 // Si estamos aquÃ­, no hay pulsaciÃ³n que nos interese
                  procesada = false;
                  break;
           }

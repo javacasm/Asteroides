@@ -3,21 +3,19 @@ package org.example.asteroides;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Rect;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.util.Log;
 import android.view.View;
 
 class Grafico {
 
     private Drawable drawable;   //Imagen que dibujaremos
-    private double posX, posY;   //Posici髇
+    private double posX, posY;   //Posici贸n
     private double incX, incY;   //Velocidad desplazamiento
-    private int angulo, rotacion;//羘gulo y velocidad rotaci髇
+    private int angulo, rotacion;//Angulo y velocidad rotaci贸n
     private int ancho, alto;     //Dimensiones de la imagen
-    private int radioColision;   //Para determinar colisi髇
-    private int frame=0;		 //Si es -1 no hay animaci髇
-    private int NFrame=20;		 // Numero de frame que tiene la animaci髇
+    private int radioColision;   //Para determinar colisi贸n
+    private int frame=0;		 //Si es -1 no hay animaci贸n
+    private int NFrame=20;		 // Numero de frame que tiene la animaci贸n
     private int anchoSprite=160;
     private int altoSprite=120;
     private Bitmap animacion;
@@ -25,7 +23,7 @@ class Grafico {
     private Boolean bAnima=false;
     private long lastMilisAnimacion;
     
-     //Donde dibujamos el gr醘ico (usada en view.ivalidate)
+     //Donde dibujamos el gr谩fico (usada en view.ivalidate)
     private View view;
 
      // Para determinar el espacio a borrar (view.ivalidate)
@@ -78,7 +76,7 @@ class Grafico {
 
     public void incrementaPos(double factor){
           posX+=incX * factor;
-          // Si salimos de la pantalla, corregimos posici髇
+          // Si salimos de la pantalla, corregimos posici贸n
           if(posX<-ancho/2) {posX=view.getWidth()-ancho/2;}
           if(posX>view.getWidth()-ancho/2) {posX=-ancho/2;}
           posY+=incY * factor;
@@ -86,7 +84,7 @@ class Grafico {
           	{posY=view.getHeight()-alto/2;}
           if(posY>view.getHeight()-alto/2) 
           	{posY=-alto/2;}
-          angulo += rotacion * factor; //Actualizamos 醤gulo
+          angulo += rotacion * factor; //Actualizamos 谩ngulo
     }
 
     public double distancia(Grafico g) {

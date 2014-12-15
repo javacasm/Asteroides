@@ -2,7 +2,7 @@ apply plugin: 'android'
 
 android {
     compileSdkVersion 10
-    buildToolsVersion "19.1.0"
+    buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "org.example.asteroides"
@@ -16,9 +16,7 @@ android {
 
     buildTypes {
         release {
-            runProguard false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-        }
+     }
     }
 }
 
