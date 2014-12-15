@@ -168,7 +168,7 @@ public class MainActivity extends Activity {
     			dialogo.setTitle("Record de puntuacion!!");
     			Button btOK=(Button)dialogo.findViewById(R.id.btOKDialogo);
     			final EditText et=(EditText)dialogo.findViewById(R.id.etUsuario);
-    			if(sNombreUsuario!="")
+    			if(!sNombreUsuario.equals(""))
     				et.setText(sNombreUsuario);
     			btOK.setOnClickListener(new OnClickListener() {
 					public void onClick(View v) {
