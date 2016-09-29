@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "org.example.asteroides"
-        minSdkVersion 8
+        minSdkVersion 9
         targetSdkVersion 15
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_5
