@@ -492,7 +492,8 @@ public class VistaJuego extends View {
 		return false;
 	}
 
-	@Override protected synchronized void onDraw(Canvas canvas) {
+	@Override
+	protected synchronized void onDraw(Canvas canvas) {
           super.onDraw(canvas);
     
           if(estrellasPosicion!=null)
