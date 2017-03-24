@@ -2,21 +2,21 @@ apply plugin: 'android'
 
 android {
     compileSdkVersion 10
-    buildToolsVersion "21.1.2"
-
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "org.example.asteroides"
-        minSdkVersion 9
-        targetSdkVersion 15
+        minSdkVersion 14
+        targetSdkVersion 24
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_5
             targetCompatibility JavaVersion.VERSION_1_5
         }
     }
-
     buildTypes {
         release {
-     }
+        }
+    }
+    productFlavors {
     }
 }
 

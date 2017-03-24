@@ -3,129 +3,84 @@
 
     <item
         is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jar="F:\javacasm\.android\build-cache\ebdec9a75f1c950142b08d7281677ed335d45924\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_be9cb0aa7b5d354d2e48931f458c80870e51dbaa\classes.dex" />
+        revision="25.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a6e984ec338cd3a4a82677521cceb61a2a4849e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\javacasm\.android\build-cache\856e58212e30ba05fdc1787bf88bcf7dc1ea9182\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e602b9a02e57f86bc3330344d6f83014094de10b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\javacasm\.android\build-cache\b5772054c0e30419c90d74b69069dc26e8c8b923\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_33777f7b74410cd3e94a8ac20a4ada86d940182c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\javacasm\.android\build-cache\36408569dd61ece90a92af8b917e6d9557f61199\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0518846032cb36a9bc2bcc7573cf2f0765ace909\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\javacasm\.android\build-cache\acaeea4486c5f359902f74bc0070da51d1729853\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bfd426e66d212f30a4375dd16c08ecbd08c776f1\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="7079086236a5f8dff80724e7a0d1f3d5e9c34d80">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6c8f0ac81fbf3db6cd5bd1f511e5f501b82a6d61\classes.dex" />
+        revision="25.0.0"
+        sha1="4a65be8148b05360cbcc9c9d91f1680964826019">
+        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6c8f0ac81fbf3db6cd5bd1f511e5f501b82a6d61\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jar="F:\javacasm\.android\build-cache\fb929c125ebf1e9c4d521973e42890fe5842a684\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_8628724083765bbe9059030ee9ca43a328d80021\classes.dex" />
+        revision="25.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_99ffe24d8869fabd448a388fed3eee8f4400993c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jar="F:\javacasm\Android-sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_c7fe1410ba84e5c7a167788aa0a8b8d03a92b05b\classes.dex" />
+        revision="25.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_57f3b982011849321679c0a2f8f1e2c8f20ce4cc\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="21.1.2"
-        sha1="6ed9c5390363097106cc0aecdbccffb79942b075">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_713ff7be7db78fdad66bfdca8d2e6fa5e33b8da3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\javacasm\Android-sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_3eb922869d535237a6fcaf4e7a0aaf26432b5d04\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1717df45c1548ae86475f6850cfc5eff979dd6fd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a9829d7bf9a494334a2d8b2b4aa84dbba4df31a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_4f1411f3d9ce3fa3d2f9836387c609afe4529e8f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_7e215e65c674d3a0458fe69411a704e4f1587958\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9eb7e36aa1bb70259fd4a0c438d2bf08bdc3a5c5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_5e7f1bfd2bae0e0769c44698fba44f262af9bac0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_14762ace98048175f83c6b2db19e6919cee5c3ee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9ef3c36edb5c3fb540a05229e98b00bb17df934c\classes.dex" />
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="F:\javacasm\AndroidStudioProjects\Asteroides\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_713ff7be7db78fdad66bfdca8d2e6fa5e33b8da3\classes.dex" />
     </item>
 
 </items>
